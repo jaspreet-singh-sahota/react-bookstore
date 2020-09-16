@@ -23,7 +23,7 @@
 <br />
 <p align="center">
   <a href="git@github.com:jaspreet-singh-sahota/react-bookstore.git">
-    <p align="center"> <img src="https://st3.depositphotos.com/9034578/17519/v/450/depositphotos_175195562-stock-illustration-miner-cute-calculator-character-cartoon.jpg" alt="React-logo" width="150" height="150"> </p>
+    <p align="center"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT3BIBqL0MVaKHhrWFoxiyPej1SjMjsdwrR8w&usqp=CAU" alt="React-logo" width="150" height="150"> </p>
   </a>
 
   <h2 align="center">Bookstore App</h2>
