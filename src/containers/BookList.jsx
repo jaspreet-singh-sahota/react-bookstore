@@ -1,7 +1,7 @@
 
 import React from 'react'
 import { connect } from 'react-redux'
-import Book from '../containers/Book'
+import Book from '../components/Book'
 
 const BooksList = ({ books }) => {
 
@@ -29,7 +29,7 @@ const BooksList = ({ books }) => {
 }
 
 const mapStateToProps = state => ({
-    books: state.book,
+    books: state.books,
 })
 
 const BooksListConnect = connect(mapStateToProps)(BooksList)

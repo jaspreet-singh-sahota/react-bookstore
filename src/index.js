@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
-import App from './App';
+import App from './components/App';
 import rootReducer from './reducers/index';
 
 const initialState = {
-  book: [
+  books: [
     {
       id: Math.floor(Math.random() * 100),
       title: 'Weep Not Child',
