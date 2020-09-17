@@ -29,9 +29,9 @@ const BooksList = ({ books }) => {
 }
 
 const mapStateToProps = state => ({
-    books: state.booksReducer,
+    books: state.book,
 })
 
-const BooksListConnect = connect(mapStateToProps, null)(BooksList)
+const BooksListConnect = connect(mapStateToProps)(BooksList)
 
 export default BooksListConnect;
