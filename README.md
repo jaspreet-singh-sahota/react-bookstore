@@ -56,7 +56,8 @@ BookStore App built with React.
 
 ## Live Link (Heroku)
 
-[Click here](#)
+[Click here](https://jassi-odong-bookstore)
+
 
 <!-- INSTALLATION -->
 
@@ -87,7 +88,7 @@ Now it will successfully open 'Bookstore app' locally in your browser.
 - yarn
 - NPM
 - Github
-- [Heroku](#) for the deployment
+- [Heroku](https://jassi-odong-bookstore) for the deployment
 
 <!-- CONTACT -->
 ## Authors
@@ -97,6 +98,14 @@ Now it will successfully open 'Bookstore app' locally in your browser.
 - [LinkedIn](https://www.linkedin.com/in/jaspreet-singh-a28286146/)
 - [GitHub](https://github.com/jaspreet-singh-sahota)
 - [Email](jaspreetsinghjassi01@gmail.com)
+
+👤 **Odong Sunday**
+
+- [Portfolio](https://odongsunday.netlify.app/)
+- Github: [@OdongAlican](https://github.com/OdongAlican)
+- Twitter: [@odongsandie](https://twitter.com/odongsandie)
+- Linkedin: [Sunday Alican odong](https://www.linkedin.com/in/sunday-alican-odong/)
+- [Email](mailto:sandieo.2020@gmail.com)
 
 ## Show your support
 
