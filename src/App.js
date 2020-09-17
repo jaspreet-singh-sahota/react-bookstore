@@ -7,8 +7,8 @@ function App() {
   return (
     <div>
       <h1 className="title">Book store</h1>
-      <BookList/>
-      <BooksForm/>
+      <BookList />
+      <BooksForm />
     </div>
   );
 }
