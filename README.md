@@ -88,7 +88,7 @@ Now it will successfully open 'Bookstore app' locally in your browser.
 - yarn
 - NPM
 - Github
-- [Heroku](#) for the deployment
+- [Heroku](https://jassi-odong-bookstore) for the deployment
 
 <!-- CONTACT -->
 ## Authors
