@@ -1,6 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { createBook } from '../actions'
+import { categories } from "../reducers/categoryData";
 
 class BooksForm extends React.Component {
   constructor(props) {
@@ -37,7 +38,6 @@ class BooksForm extends React.Component {
   }
   
   render() {
-    const categories = ["Action", "Biography", "History", "Horror", "Kids", "Learning", "Sci-Fi"]
 
     return (
       <form onSubmit={this.handleSubmit} onChange={this.handleChange}>
