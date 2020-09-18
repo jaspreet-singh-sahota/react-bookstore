@@ -1,7 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { createBook } from '../actions'
-import { categories } from "../reducers/categoryData";
+import categories  from "../reducers/categoryData";
 
 class BooksForm extends React.Component {
   constructor(props) {

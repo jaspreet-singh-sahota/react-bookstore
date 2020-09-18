@@ -1,8 +1,7 @@
-import { CHANGE_FILTER } from "../actions/actionType";
+import { CHANGE_FILTER } from '../actions/actionType';
 
 const filter = (state = 'All', action) => {
-  console.log(state,action)
-    switch (action.type) {
+  switch (action.type) {
     case CHANGE_FILTER:
       return action.payload;
     default:
@@ -10,4 +9,4 @@ const filter = (state = 'All', action) => {
   }
 };
 
-export default filter
+export default filter;

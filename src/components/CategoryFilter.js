@@ -1,9 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { categories } from "../reducers/categoryData";
+import categories from '../reducers/categoryData';
 
 const CategoryFilter = ({ filterCategory }) => {
-
   const handleFilter = ({ target }) => {
     filterCategory(target.value);
   };

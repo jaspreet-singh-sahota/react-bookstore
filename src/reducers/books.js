@@ -1,4 +1,4 @@
-import { CREATE_BOOK, DELETE_BOOK } from "../actions/actionType";
+import { CREATE_BOOK, DELETE_BOOK } from '../actions/actionType';
 
 const booksReducer = (state = [], action) => {
   switch (action.type) {

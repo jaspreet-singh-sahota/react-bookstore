@@ -6,11 +6,6 @@ import { deleteBook, changeFilter as cf } from '../actions/index'
 import CategoryFilter from '../components/CategoryFilter'
 
 const BooksList = ({ books, deleteBook, filter, changeFilter }) => {
-
-    const handleRemoveBook = book => {
-        deleteBook(book)
-    }
-
     
     return(
         <div>
