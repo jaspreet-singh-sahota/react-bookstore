@@ -47,3 +47,30 @@
   align-items: center;
   color: #0290ff;
 }
+
+.categories-filter {
+  padding: 30px 90px;
+  display: flex;
+}
+
+.span-section {
+  font-size: 20px;
+  letter-spacing: -0.18px;
+  color: #888;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.select-section {
+  border-radius: 5px;
+  height: 40px;
+  width: 285px;
+  background-color: #fff;
+  font-size: 16px;
+  letter-spacing: -0.15px;
+  outline: none;
+  padding: 0 10px;
+}
