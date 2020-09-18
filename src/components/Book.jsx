@@ -26,7 +26,7 @@ const Book = ({ book, removeBook }) => {
       <div className="second-element">
         <FontAwesomeIcon icon={faCircleNotch} className="oval" />
         <div className="percentage">
-          <span>64%</span>
+          <span>94%</span>
           <span>Completed</span>
         </div>
       </div>
