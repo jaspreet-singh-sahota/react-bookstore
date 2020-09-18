@@ -1,3 +1,49 @@
-.title {
-  text-align: center;
+.nav-bar {
+  padding: 18px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.2px solid lightgray;
+}
+
+.bookstore-title {
+  font-weight: 700;
+  color: #0290ff;
+  align-self: center;
+  flex: 2;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.nav-name,
+.cat-name {
+  font-size: 14px;
+  color: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.cat-name {
+  color: #999;
+}
+
+.profile-name {
+  flex: 5;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.border-section {
+  width: 40px;
+  height: 40px;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0290ff;
 }
