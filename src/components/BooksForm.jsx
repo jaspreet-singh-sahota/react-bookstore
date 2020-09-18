@@ -19,6 +19,16 @@ class BooksForm extends Component {
     this.setState({ [name]: value})
   }
 
+  handleSubmit = (event) => {
+    event.preventDefault()
+    const { title, category } = this.state
+    const { createBook } = this.props
+    if ( title && category ) {
+      createBook(this.state)
+    }
+    event.target.reset()
+  }
+  
 
   render() {
     const categories = ["Action", "Biography", "History", "Horror", "Kids", "Learning", "Sci-Fi"]
