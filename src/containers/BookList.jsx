@@ -12,14 +12,6 @@ const BooksList = ({ books, deleteBook, filter, changeFilter }) => {
         <div>
             <CategoryFilter filterCategory={changeFilter}/>
             <table>
-                <thead>
-                    <tr>
-                        <th>Book ID</th>
-                        <th>Title</th>
-                        <th>Category</th>
-                        <th>Remove</th>
-                    </tr>
-                </thead>
                <tbody>
                     {books
                         .filter(book => (filter === 'All' ? true : book.category === filter))

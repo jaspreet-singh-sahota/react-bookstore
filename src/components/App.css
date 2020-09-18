@@ -74,3 +74,135 @@
   outline: none;
   padding: 0 10px;
 }
+
+.book-element {
+  display: flex;
+  width: 1000px;
+  height: 100px;
+  border-radius: 4px;
+  border: 1px solid #e8e8e8;
+  background-color: #fff;
+  padding: 32px 27px;
+  margin: 20px 80px;
+}
+
+.first-element,
+.percentage,
+.third-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.first-element-options span {
+  margin-right: 10px;
+}
+
+.percentage span:first-child {
+  font-size: 32px;
+}
+
+.percentage span:last-child {
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.first-element {
+  width: 550px;
+  font-family: 'Roboto Slab', serif;
+  color: #121212;
+}
+
+.first-element-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.first-element-options {
+  display: flex;
+  margin-top: 20px;
+}
+
+.first-element-category {
+  opacity: 0.5;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.first-element-title {
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: -0.2px;
+}
+
+.first-element-id,
+.first-element-options {
+  color: #4386bf;
+  font-size: 14px;
+}
+
+.first-element-button {
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  color: #4386bf;
+  font-family: 'Roboto Slab', serif;
+  align-self: center;
+  padding: 0 10px 0 0;
+}
+
+.second-element {
+  width: 180px;
+  display: flex;
+  color: #121212;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.second-element:first-child {
+  font-size: 32px;
+}
+
+.third-element {
+  font-family: 'Roboto Slab', serif;
+  color: #121212;
+  font-size: 13px;
+}
+
+.third-element-first {
+  opacity: 0.5;
+}
+
+.third-element-second {
+  font-size: 16px;
+  letter-spacing: -0.4px;
+  padding-top: 5px;
+}
+
+.third-element-third {
+  border: none;
+  width: 184px;
+  height: 33px;
+  color: #fff;
+  background-color: #0290ff;
+  margin-top: 20px;
+  border-radius: 3px;
+  letter-spacing: 0.5px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.oval {
+  width: 68px !important;
+  height: 68px;
+  align-self: center;
+  padding-right: 10px;
+  color: #307bbe;
+}
+
+.line {
+  display: flex;
+  width: 2px;
+  height: 70px;
+  border: 1px solid #e8e8e8;
+  margin: auto 55px;
+}

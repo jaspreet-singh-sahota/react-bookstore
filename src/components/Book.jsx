@@ -18,7 +18,7 @@ const Book = ({ book, removeBook }) => {
         <div className="first-element-options">
           <span>Comments</span>
           <span>|</span>
-          <td><button onClick={()=>removeBook(book)}>Remove Book</button></td>
+          <td><button className="first-element-button" onClick={()=>removeBook(book)}>Remove Book</button></td>
                     <span>|</span>
           <span>Edit</span>
         </div>
