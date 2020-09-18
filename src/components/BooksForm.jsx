@@ -1,10 +1,8 @@
 import React from 'react'
-
-import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { createBook } from '../actions'
 
-class BooksForm extends Component {
+class BooksForm extends React.Component {
   constructor(props) {
     super(props)
 
@@ -29,7 +27,6 @@ class BooksForm extends Component {
     event.target.reset()
   }
   
-
   render() {
     const categories = ["Action", "Biography", "History", "Horror", "Kids", "Learning", "Sci-Fi"]
 
