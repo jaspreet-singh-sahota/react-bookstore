@@ -2,7 +2,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import Book from '../components/Book'
-import { deleteBook, changeFilter as cf } from '../actions/index'
+import { deleteBook, changeFilter } from '../actions/index'
 import CategoryFilter from '../components/CategoryFilter'
 import PropTypes from 'prop-types';
 
@@ -33,13 +33,13 @@ const BooksList = ({ books, deleteBook, filter, changeFilter }) => {
 }
 
 const mapStateToProps = state => ({
-    books: state.book,
+    books: state.books,
     filter: state.filter,
 })
 
 const mapDispatchToProps = dispatch => ({
     deleteBook: book => dispatch(deleteBook(book)),
-    changeFilter: category => dispatch(cf(category)),
+    changeFilter: category => dispatch(changeFilter(category)),
 })
 
 BooksList.propTypes = {
