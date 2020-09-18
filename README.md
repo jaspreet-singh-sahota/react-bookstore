@@ -54,7 +54,9 @@ BookStore App built with React.
 
 ## Features
 
-This is a Bookstore App, where user can add, remove, edit and follow the reading progress of your books.
+This is a Bookstore App, where user can add, remove, edit and follow the reading progress of your books. User can also filter different categories of the books.
+
+![Screenshot from 2020-09-19 02-08-56](https://user-images.githubusercontent.com/55361440/93643310-61cc5c80-fa1d-11ea-8fac-713e675e1419.png)
 
 <!-- Live Link (Netlify) -->
 
