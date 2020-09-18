@@ -1,6 +1,8 @@
 import React from 'react'
 
 import React, { Component } from 'react'
+import { connect } from 'react-redux'
+import { createBook } from '../actions'
 
 class BooksForm extends Component {
   constructor(props) {
@@ -12,7 +14,11 @@ class BooksForm extends Component {
     }
   }
 
-  
+  handleChange = (event) => {
+    const { name , value } = event.target
+    this.setState({ [name]: value})
+  }
+
 
   render() {
     const categories = ["Action", "Biography", "History", "Horror", "Kids", "Learning", "Sci-Fi"]
@@ -34,6 +40,4 @@ class BooksForm extends Component {
 }
 
 
-
-
-export default BooksForm;
+export default connect(null, mapDispatchToProps)(BooksForm);
