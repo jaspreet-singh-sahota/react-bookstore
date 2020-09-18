@@ -39,5 +39,8 @@ class BooksForm extends Component {
   }
 }
 
+const mapDispatchToProps = dispatch => ({
+  createBook: book => dispatch(createBook(book))
+})
 
 export default connect(null, mapDispatchToProps)(BooksForm);
