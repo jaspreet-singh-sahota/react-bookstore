@@ -33,7 +33,7 @@ class BooksForm extends React.Component {
     if ( title && category ) {
       createBook(book)
     }
-    event.target.value = ''
+    event.target.title.value = ''
   }
   
   render() {
