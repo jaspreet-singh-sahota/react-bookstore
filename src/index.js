@@ -26,7 +26,7 @@ const initialState = {
     {
       id: Math.floor(Math.random() * 100),
       title: 'Black Magic',
-      category: 'Sci-fi',
+      category: 'Sci-Fi',
     },
   ],
 

@@ -9,7 +9,7 @@ const CategoryFilter = ({ filterCategory }) => {
 
   return (
     <div>
-      <label htmlFor="category">CATEGORIES</label>
+      <span>CATEGORIES:</span>
       <select name="category" onChange={handleFilter}>
         <option value="All" key="All">
           All
