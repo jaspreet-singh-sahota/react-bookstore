@@ -2,9 +2,13 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import Book from '../containers/Book'
+import { deleteBook } from '../actions/index'
 
-const BooksList = ({ books }) => {
+const BooksList = ({ books, deleteBook }) => {
 
+    const handleRemoveBook = book => {
+        deleteBook(book)
+    }
 
     return(
         <div>
@@ -14,12 +18,13 @@ const BooksList = ({ books }) => {
                         <th>Book ID</th>
                         <th>Title</th>
                         <th>Category</th>
+                        <th>Remove</th>
                     </tr>
                 </thead>
                <tbody>
                    {
                        books.map( book => (
-                        <Book book = {book} key={book.id}/>
+                        <Book book = {book} key={book.id} removeBook = { handleRemoveBook }/>
                        ))
                    }
                 </tbody> 
@@ -32,6 +37,10 @@ const mapStateToProps = state => ({
     books: state.book,
 })
 
-const BooksListConnect = connect(mapStateToProps)(BooksList)
+const mapDispatchToProps = dispatch => ({
+    deleteBook: book => dispatch(deleteBook(book))
+})
+
+const BooksListConnect = connect(mapStateToProps, mapDispatchToProps)(BooksList)
 
 export default BooksListConnect;

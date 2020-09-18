@@ -21,19 +21,25 @@ class BooksForm extends React.Component {
     event.preventDefault()
     const { title, category } = this.state
     const { createBook } = this.props
-    if ( title && category ) {
-      createBook(this.state)
+
+    const book = {
+      id: Math.floor(Math.random() * 200),
+      title,
+      category
     }
-    event.target.reset()
+    if ( title && category ) {
+      createBook(book)
+    }
+    event.target.value = ''
   }
   
   render() {
     const categories = ["Action", "Biography", "History", "Horror", "Kids", "Learning", "Sci-Fi"]
 
     return (
-      <form onClick={handleSubmit} onChange={handleChange}>
+      <form onSubmit={this.handleSubmit} onChange={this.handleChange}>
         <label htmlFor="title">Title</label>
-        <input name="title" placeholder="Enter Book Title" type="text" onChange={handleChange} />
+        <input name="title" placeholder="Enter Book Title" type="text" onChange={this.handleChange} />
         <label htmlFor="category">Category</label>
         <select name="category">
           {categories.map(category => (
