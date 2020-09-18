@@ -1,7 +1,7 @@
 
 import React from 'react'
 import { connect } from 'react-redux'
-import Book from '../containers/Book'
+import Book from '../components/Book'
 import { deleteBook } from '../actions/index'
 
 const BooksList = ({ books, deleteBook }) => {
