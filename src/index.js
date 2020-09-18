@@ -7,7 +7,7 @@ import App from './components/App';
 import rootReducer from './reducers/index';
 
 const initialState = {
-  book: [
+  books: [
     {
       id: Math.floor(Math.random() * 100),
       title: 'Weep Not Child',
