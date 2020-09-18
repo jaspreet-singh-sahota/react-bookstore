@@ -2,6 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { createBook } from '../actions'
 import categories  from "../reducers/categoryData";
+import PropTypes from 'prop-types';
 
 class BooksForm extends React.Component {
   constructor(props) {
@@ -58,5 +59,9 @@ class BooksForm extends React.Component {
 const mapDispatchToProps = dispatch => ({
   createBook: book => dispatch(createBook(book))
 })
+
+BooksForm.propTypes = {
+  createBook: PropTypes.func.isRequired,
+};
 
 export default connect(null, mapDispatchToProps)(BooksForm);

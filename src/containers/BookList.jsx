@@ -4,6 +4,7 @@ import { connect } from 'react-redux'
 import Book from '../components/Book'
 import { deleteBook, changeFilter as cf } from '../actions/index'
 import CategoryFilter from '../components/CategoryFilter'
+import PropTypes from 'prop-types';
 
 const BooksList = ({ books, deleteBook, filter, changeFilter }) => {
     
@@ -40,6 +41,13 @@ const mapDispatchToProps = dispatch => ({
     deleteBook: book => dispatch(deleteBook(book)),
     changeFilter: category => dispatch(cf(category)),
 })
+
+BooksList.propTypes = {
+    books: PropTypes.instanceOf(Array).isRequired,
+    deleteBook: PropTypes.func.isRequired,
+    changeFilter: PropTypes.func.isRequired,
+    filter: PropTypes.string.isRequired,
+  };
 
 const BooksListConnect = connect(mapStateToProps, mapDispatchToProps)(BooksList)
 
