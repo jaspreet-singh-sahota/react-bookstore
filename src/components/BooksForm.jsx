@@ -10,14 +10,17 @@ class BooksForm extends React.Component {
       title: '',
       category: ''
     }
+
+    this.handleChange = this.handleChange.bind(this)
+    this.handleSubmit = this.handleSubmit.bind(this)
   }
 
-  handleChange = (event) => {
+  handleChange(event) {
     const { name , value } = event.target
     this.setState({ [name]: value})
   }
 
-  handleSubmit = (event) => {
+  handleSubmit(event) {
     event.preventDefault()
     const { title, category } = this.state
     const { createBook } = this.props
