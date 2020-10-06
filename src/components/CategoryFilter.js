@@ -8,9 +8,11 @@ const CategoryFilter = ({ filterCategory }) => {
   };
 
   return (
-    <div>
-      <span>CATEGORIES:</span>
-      <select name="category" onChange={handleFilter}>
+    <div className="categories-filter">
+      <div className="span-section">
+        <span>CATEGORIES FILTER:</span>
+      </div>
+      <select className="select-section" name="category" onChange={handleFilter}>
         <option value="All" key="All">
           All
         </option>

@@ -23,7 +23,7 @@
 <br />
 <p align="center">
   <a href="git@github.com:jaspreet-singh-sahota/react-bookstore.git">
-    <p align="center"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT3BIBqL0MVaKHhrWFoxiyPej1SjMjsdwrR8w&usqp=CAU" alt="React-logo" width="150" height="150"> </p>
+    <p align="center"> <img src="https://user-images.githubusercontent.com/55361440/93642795-50cf1b80-fa1c-11ea-988a-e2ef29f33f10.png" alt="React-logo" > </p>
   </a>
 
   <h2 align="center">Bookstore App</h2>
@@ -52,11 +52,17 @@
 
 BookStore App built with React.
 
+## Features
+
+This is a Bookstore App, where user can add, remove, edit and follow the reading progress of your books. User can also filter different categories of the books.
+
+![Screenshot from 2020-09-19 02-08-56](https://user-images.githubusercontent.com/55361440/93643310-61cc5c80-fa1d-11ea-8fac-713e675e1419.png)
+
 <!-- Live Link (Netlify) -->
 
 ## Live Link (Heroku)
 
-[Click here](https://jassi-odong-bookstore)
+[Click here](https://jassi-odong-bookstore-app.herokuapp.com/)
 
 
 <!-- INSTALLATION -->
@@ -89,7 +95,7 @@ Now it will successfully open 'Bookstore app' locally in your browser.
 - yarn
 - NPM
 - Github
-- [Heroku](https://jassi-odong-bookstore) for the deployment
+- [Heroku](https://jassi-odong-bookstore-app.herokuapp.com/) for the deployment
 
 <!-- CONTACT -->
 ## Authors
